@@ -19,5 +19,7 @@ int main()
     short *const q = &sv;
     int *pp;
     static_cast<const int *>(pp);
+    std::nullptr_t null = 0;
+    int *p = null;
     return 0;
 }
