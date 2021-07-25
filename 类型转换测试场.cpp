@@ -10,16 +10,7 @@ float fv = -13.1; double dv = -14.2;
 
 int main()
 {
-    // 使用IDE的lint工具查看auto变量的类型
-    auto v0 = bv + fv;
-    auto v1 = llv + fv;
-    auto v2 = ullv + fv;
-    auto v3 = (__int128_t)1 + fv;
-    const int *p = &iv;
-    short *const q = &sv;
-    int *pp;
-    static_cast<const int *>(pp);
-    std::nullptr_t null = 0;
-    int *p = null;
+    // 使用IDE的lint工具查看变量的类型
+    
     return 0;
 }
