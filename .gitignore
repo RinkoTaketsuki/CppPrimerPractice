@@ -33,3 +33,6 @@
 
 # vscode config folder
 .vscode
+
+# test code
+test.cpp
