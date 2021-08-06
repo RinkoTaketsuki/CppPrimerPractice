@@ -32,7 +32,7 @@
 *.app
 
 # vscode config folder
-.vscode
+/.vscode/
 
 # test code
 test.cpp
