@@ -1,3 +1,4 @@
+#include <functional>
 #include <iostream>
 #include <initializer_list>
 using namespace std;
@@ -11,6 +12,6 @@ float fv = -13.1; double dv = -14.2;
 int main()
 {
     // 使用IDE的lint工具查看变量的类型
-    
+    function<double(long, int)> f;
     return 0;
 }
