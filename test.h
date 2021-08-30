@@ -20,8 +20,12 @@
 // Generic Algorithm
 #include <algorithm>
 #include <numeric>
+// Regular Expression
+#include <regex> 
 // Callable Object
 #include <functional>
+// Random Number
+#include <random>
 // C Standard Library
 #include <cmath>
 #include <cstdio>
